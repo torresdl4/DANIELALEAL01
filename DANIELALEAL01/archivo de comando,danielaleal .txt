@@ -1,0 +1,48 @@
+git --version = Revisar la versión de Git
+git config --list = Revisar la configuración de Git
+git config --global user.name "" = La configuración del usuario
+git config --global user.email "" = La configuracion del correo
+git config --get user.name = Para consultar usuario
+git config --get user.email"= Para consultar correo
+git update-git-for-windows = Actualizar Git en caso de que ya esté instalado
+get-ExecutionPolicy =  una consola de POWER SHELL en modo administrador
+set-executionpolicy unrestricted = habilitar para poder correr scripts
+mkdir assets\css = para crear una nueva carpeta llamada css dentro de la carpeta assets
+mkdir assets\img = para crear una nueva carpeta llamada img dentro de la carpeta assets.
+mkdir pages = para crear una nueva carpeta llamada pages.
+new-item index.html = Se puede crear el archivo index.html desde la consola.
+new-item pages\producto.html = para crear un nuevo archivo HTML llamado producto.html dentro de la carpeta pages.
+new-item pages\almacen.html = para crear un nuevo archivo HTML llamado almacen.html dentro de la carpeta pages.
+new-item pages\acerca.html = para crear un nuevo archivo HTML llamado acerca.html dentro de la carpeta pages.
+new-item pages\sesion.html = para crear un nuevo archivo HTML llamado sesion.html dentro de la carpeta pages.
+new-item assets\css\estilos.css = para crear un nuevo archivo CSS llamado estilos.css dentro de la carpeta assets\css.
+
+git init = Iniciar el control de versiones en GIT
+git status = Se puede verificar el estado del Git en el proyecto
+git add . = El comando git add . se utiliza para agregar todos los cambios realizados en los archivos rastreados por Git en el directorio actual
+
+git commit -m "" = se utiliza en el sistema de control de versiones Git para crear un nuevo "commit" (instantánea) de tus cambios.
+git log --oneline = se utiliza en el sistema de control de versiones Git para mostrar el historial de commits en una sola línea por cada commit.
+
+git branch = se utiliza en el sistema de control de versiones Git para crear una nueva rama (branch)
+
+git branch -v = se utiliza en el sistema de control de versiones Git para mostrar información sobre las ramas locales existentes.
+
+git checkout = se utiliza en el sistema de control de versiones Git para cambiar entre diferentes ramas de tu proyecto. También te permite restaurar archivos a un estado anterior en el historial de tu proyecto.
+
+git remote add origin urlRepositorio = se utiliza en el sistema de control de versiones Git para asociar un repositorio remoto a tu repositorio local.
+
+git push --all = se utiliza en el sistema de control de versiones Git para subir todas las ramas locales a un repositorio remoto
+
+git remote -v = verificar a qué repositorio remoto está conectado mi proyecto
+
+git clone urlRepoAClonar = Descarga una copia completa del repositorio remoto en tu computadora, incluyendo todos los archivos, commits y ramas.
+
+git branch -a = se utiliza en el sistema de control de versiones Git para listar todas las ramas locales y remotas.
+
+git remote set-url origin urlNuevoRepo = cambiar a otro repositorio
+
+git remote remove origin = borrar la conexión a un repositorio remoto u hacer una nueva
+ 
+
+ 
