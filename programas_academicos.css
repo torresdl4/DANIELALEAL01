@@ -1,0 +1,287 @@
+/* Reset de estilos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Definición de variables */
+  :root {
+    --font-family-main: 'Roboto', sans-serif;
+    --color-turquoise: #4fb3bf;
+    --color-turquoise-lighter: #68c4d1;
+  }
+  
+  /* Tipografía general */
+  body {
+    font-family: var(--font-family-main);
+    font-size: 16px;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f0f3f5; /* Azul grisáceo */
+  }
+  
+  /* Enlaces */
+  a {
+    text-decoration: none;
+    color: var(--color-turquoise); /* Azul turquesa */
+    transition: color 0.2s ease-in-out;
+  }
+  
+  a:hover {
+    color: var(--color-turquoise-lighter); /* Azul turquesa más claro */
+  }
+  
+  /* Botones */
+  .boton {
+    display: inline-block;
+    padding: 10px 20px;
+    border: 1px solid var(--color-turquoise); /* Azul turquesa */
+    border-radius: 4px;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+    background-color: var(--color-turquoise); /* Azul turquesa */
+    transition: all 0.2s ease-in-out;
+    cursor: pointer;
+    margin: 5px; /* Añadido margen para una mejor distribución de los espacios */
+  }
+  
+  .boton:hover {
+    background-color: var(--color-turquoise-lighter); /* Azul turquesa más claro */
+    border-color: var(--color-turquoise-lighter); /* Azul turquesa más claro */
+  }
+  
+  /* Imágenes */
+  img {
+    max-width: 100%;
+    height: auto;
+    transition: transform 0.2s ease-in-out;
+  }
+  
+  img:hover {
+    transform: scale(1.05);
+  }
+  
+  /* Contenedor principal */
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px; /* Añadido padding para una mejor distribución de los espacios */
+  }
+  
+  /* Encabezado */
+  .programas-header {
+    background-color: #2c3e50; /* Azul oscuro */
+    padding: 40px 0;
+    text-align: center;
+    transition: background-color 0.2s ease-in-out;
+  }
+  
+  .programas-header:hover {
+    background-color: #34495e; /* Azul oscuro más claro */
+  }
+  
+  .programas-header .logo {
+    max-width: 200px;
+    margin: 0 auto;
+    transition: transform 0.2s ease-in-out;
+  }
+  
+  .programas-header .logo:hover {
+    transform: scale(1.05);
+  }
+  
+  .programas-header h1 {
+    font-size: 24px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    transition: color 0.2s ease-in-out;
+  }
+  
+  .programas-header h1:hover {
+    color: #ddd;
+  }
+  
+  .programas-header p {
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 40px;
+    transition: color 0.2s ease-in-out;
+  }
+  
+  .programas-header p:hover {
+    color: #ddd;
+  }
+  
+  .botones-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap; /* Añadido flex-wrap para una mejor distribución de los botones */
+  }
+  
+  .botones-header .boton {
+    margin: 5px; /* Añadido margen para una mejor distribución de los espacios */
+  }
+  
+  /* Sección Destacado */
+  .destacado {
+    background-color: #3498db; /* Azul brillante */
+    padding: 40px 0;
+    transition: background-color 0.2s ease-in-out;
+  }
+  
+  .destacado:hover {
+    background-color: #5da8dc; /* Azul brillante más claro */
+  }
+  
+  .destacado h2 {
+    font-size: 20px;
+    margin-bottom: 20px;
+    color: #fff;
+    transition: color 0.2s ease-in-out;
+  }
+  
+  .destacado h2:hover {
+    color: #ddd;
+  }
+  
+  .carreras {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px; /* Añadido gap para una mejor distribución de los espacios */
+  }
+  
+  .carrera {
+    width: calc(33% - 20px); /* Ajustado el ancho para tener en cuenta el gap */
+    text-align: center;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    transition: box-shadow 0.2s ease-in-out;
+  }
+  
+  .carrera:hover {
+    box-shadow: 0 0 20px rgba(0,0,0,0.2);
+  }
+  
+  .carrera img {
+    margin-bottom: 10px;
+  }
+  
+  .carrera h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    transition: color 0.2s ease-in-out;
+  }
+  
+  .carrera h3:hover {
+    color: #4fb3bf; /* Azul turquesa */
+  }
+  
+  .carrera p {
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+    transition: color 0.2s ease-in-out;
+  }
+  
+  .carrera p:hover {
+    color: #4fb3bf; /* Azul turquesa */
+  }
+  
+  .boton-mas-info {
+    margin: 0 auto;
+  }
+  
+  /* Sección Programas */
+  .programas {
+    padding: 40px 0;
+    transition: background-color 0.2s ease-in-out;
+    background-color: #f5f8fa; /* Azul grisáceo más claro */
+  }
+  
+  .programas:hover {
+    background-color: #e9eff2; /* Azul grisáceo aún más claro */
+  }
+  
+  .programas h2 {
+    font-size: 20px;
+    margin-bottom: 20px;
+    color: #333;
+    transition: color 0.2s ease-in-out;
+  }
+  
+  .programas h2:hover {
+    color: #4fb3bf; /* Azul turquesa */
+  }
+  
+  .facultades {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .facultades li {
+    margin-bottom: 20px;
+    width: calc(50% - 10px);
+    background-color: #fff;
+    border-radius: 4px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    transition: box-shadow 0.2s ease-in-out;
+    padding: 20px;
+  }
+  
+  .facultades li:hover {
+    box-shadow: 0 0 20px rgba(0,0,0,0.2);
+  }
+  
+  .facultades li a {
+    font-size: 18px;
+    font-weight: bold;
+    color: var(--color-turquoise); /* Azul turquesa */
+    margin-bottom: 0;
+    padding: 20px;
+    text-align: center;
+    display: block;
+    transition: color 0.2s ease-in-out;
+  }
+  
+  .facultades li a:hover {
+    color: var(--color-turquoise-lighter); /* Azul turquesa más claro */
+    font-family: 'Arial', sans-serif; /* Cambio de tipo de letra */
+  }
+  
+  .programas-footer p {
+    font-size: 14px;
+    margin-bottom: 10px;
+    transition: color 0.2s ease-in-out;
+  }
+  
+  .programas-footer p:hover {
+    color: var(--color-turquoise); /* Azul turquesa */
+  }
+  
+  .botones-footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap; /* Añadido flex-wrap para una mejor distribución de los botones */
+  }
+  
+  .botones-footer a {
+    margin: 5px; /* Añadido margen para una mejor distribución de los espacios */
+    font-size: 14px;
+    transition: color 0.2s ease-in-out;
+  }
+  
+  .botones-footer a:hover {
+    color: var(--color-turquoise); /* Azul turquesa */
+  }
+  

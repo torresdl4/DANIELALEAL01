@@ -1,0 +1,184 @@
+/* Reset de estilos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Estilo para el cuerpo */
+  body {
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    background-color: #f9f9f9;
+    line-height: 1.6;
+  }
+  
+  /* Contenedor principal */
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  /* Encabezado */
+  .docentes-header {
+    background-color: #1e2b34;
+    color: #fff;
+    padding: 40px 0;
+    text-align: center;
+    border-radius: 8px;
+  }
+  
+  .docentes-header h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+  }
+  
+  .docentes-header p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+  }
+  
+  .busqueda-docente {
+    margin-bottom: 20px;
+  }
+  
+  .busqueda-docente input[type="text"] {
+    padding: 12px;
+    width: 70%;
+    border: none;
+    border-radius: 20px;
+  }
+  
+  .botones-buscar {
+    padding: 12px 24px;
+    border: none;
+    border-radius: 20px;
+    background-color: #4fb3bf;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .botones-buscar:hover {
+    background-color: #68c4d1;
+  }
+  
+  /* Sección de filtros */
+  .filtros {
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 30px;
+  }
+  
+  .filtros h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  .facultades,
+  .especialidades {
+    list-style: none;
+  }
+  
+  .facultades li,
+  .especialidades li {
+    margin-bottom: 10px;
+  }
+  
+  .facultades a,
+  .especialidades a {
+    display: block;
+    padding: 12px 20px;
+    background-color: #f0f0f0;
+    border-radius: 20px;
+    color: #333;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+  }
+  
+  .facultades a:hover,
+  .especialidades a:hover {
+    background-color: #ddd;
+  }
+  
+  /* Sección de docentes */
+  .docentes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .docente {
+    width: calc(33.33% - 20px);
+    margin-bottom: 30px;
+    background-color: #fff;
+    border-radius: 8px;
+  }
+  
+  .imagen-docente {
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    overflow: hidden;
+  }
+  
+  .imagen-docente img {
+    width: 100%;
+  }
+  
+  .detalle-docente {
+    padding: 20px;
+  }
+  
+  .detalle-docente h3 {
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+  }
+  
+  .detalle-docente p {
+    font-size: 1.4rem;
+    margin-bottom: 20px;
+  }
+  
+  .boton-ver-mas {
+    display: block;
+    padding: 12px 24px;
+    background-color: #4fb3bf;
+    color: #fff;
+    text-decoration: none;
+    text-align: center;
+    border-radius: 20px;
+  }
+  
+  /* Pie de página */
+  .docentes-footer {
+    background-color: #1e2b34;
+    color: #fff;
+    text-align: center;
+    padding: 40px 0;
+    border-radius: 8px;
+  }
+  
+  .docentes-footer p {
+    font-size: 1.4rem;
+    margin-bottom: 20px;
+  }
+  
+  .redes-sociales {
+    margin-top: 20px;
+  }
+  
+  .redes-sociales a {
+    display: inline-block;
+    margin: 0 10px;
+    transition: transform 0.3s ease;
+  }
+  
+  .redes-sociales a:hover {
+    transform: scale(1.2);
+  }
+  
+  .redes-sociales img {
+    width: 40px;
+  }
+  
